@@ -1,8 +1,7 @@
 # Work-Day-Scheduler
 
 ## Description
-
-https://daniel-notice.github.io/Horiseon-Marketing-Website/
+https://daniel-notice.github.io/Work-Day-Scheduler/
 
 This is a website that is used for scheduling work. This website was made using html, css, javascript, and jquery. The website also allows users to save entries so that you can remember what was last typed. 
 
