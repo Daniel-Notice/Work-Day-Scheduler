@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
   });
 
-  //grabs values from time and value divs and saves them to local storage
+  //Holds the value from div from time and value and puts them in local storage
   $(".saveBtn").click(function (e) {
     e.preventDefault();
     let value = $(this).siblings(".time-block").val();
@@ -31,7 +31,7 @@ $(document).ready(function(){
     localStorage.setItem(time, value);
   });
 
-  //retrieves items from local storage and sets them in proper places
+  //gets the items from local storage 
   $("#hour-09 .time-block").val(localStorage.getItem("09"));
   $("#hour-10 .time-block").val(localStorage.getItem("10"));
   $("#hour-11 .time-block").val(localStorage.getItem("11"));
